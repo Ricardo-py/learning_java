@@ -1,6 +1,5 @@
 package leetcode.leetcode17;
 
-import javafx.scene.control.ListView;
 import org.junit.Test;
 
 import java.util.ArrayList;

@@ -13,6 +13,7 @@ public class test1 {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
+
             System.out.println("thread1 begin");
             try {
                 TimeUnit.SECONDS.sleep(3);

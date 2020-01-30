@@ -12,7 +12,6 @@ class ListNode {
 }
 
 public class Solution {
-
     @Test
     public void run(){
         int [] nums1 = {4, 2, 1};

@@ -8,14 +8,14 @@ public class ListNode {
         this.val = val;
     }
 
-    public ListNode add(ListNode head,int val){
+    public static ListNode add(ListNode head,int val){
         ListNode node = new ListNode(val);
         node.next = head;
         head = node;
         return head;
     }
 
-    public void print(ListNode head){
+    public static void print(ListNode head){
         while (head != null){
             System.out.println(head.val);
             head = head.next;

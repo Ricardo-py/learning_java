@@ -18,4 +18,14 @@ public class TreeNode {
         return ;
     }
 
+    public static void inOrfer(TreeNode root){
+        if (root == null)
+            return;
+        if (root.left != null)
+            inOrfer(root.left);
+        System.out.println(root.val);
+        if (root.right != null)
+            inOrfer(root.right);
+    }
+
 }

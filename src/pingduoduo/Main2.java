@@ -2,6 +2,7 @@ package pingduoduo;
 
 import java.util.Scanner;
 
+//随便加一个注释
 public class Main2 {
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
